@@ -25,7 +25,7 @@ MaestroHunt orchestrates the entire bug bounty reconnaissance pipeline, from OSI
 ## Installation
 
 ```bash
-git clone https://github.com/your/maestrohunt.git
+git clone https://github.com/makari25/maestrohunt.git
 cd maestrohunt
 chmod +x install.sh
 ./install.sh
