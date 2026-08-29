@@ -19,7 +19,7 @@ MaestroHunt orchestrates the entire bug bounty reconnaissance pipeline, from OSI
   - Python3 + pip
   - Git
 - Installed tools (installer provided):
-  - ProjectDiscovery suite (`subfinder`, `httpx`, `nuclei`, `katana`, `dnsx`, etc.)
+  - ProjectDiscovery suite (`subfinder`, `httpx`, `nuclei`, `katana`, , etc.)
   - `amass`, `assetfinder`, `waybackurls`, `gau`, `puredns`, `arjun`, `gf`
 
 ## Installation
