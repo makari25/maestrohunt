@@ -1,0 +1,30 @@
+# Config (contains secrets)
+config.conf
+
+# Output directories
+output/
+results/
+*.log
+
+# Generated text files
+*.txt
+*.json
+*.xml
+*.html
+*.csv
+*.tmp
+
+# Archives
+*.zip
+*.tar.gz
+*.tgz
+*.7z
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# OS junk
+.DS_Store
+Thumbs.db
