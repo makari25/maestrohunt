@@ -1,0 +1,30 @@
+
+# MaestroHunt configuration template
+# Copy to config.conf and edit for your environment.
+
+DOMAIN=""
+
+# Output directory
+BASE_DIR="${HOME}/bugbounty"
+
+# Concurrency and optional scanning
+THREADS=10
+ENABLE_PORTSCAN=0
+
+# Tool paths
+RESOLVERS_FILE="${HOME}/resolvers.txt"
+SECLISTS_DIR="/usr/share/seclists"
+NUCLEI_TEMPLATES="${HOME}/nuclei-templates"
+
+# Optional Discord notification; leave empty to disable.
+NOTIFY_DISCORD_WEBHOOK=""
+
+# Pipeline phases: 1 = enabled, 0 = disabled
+ENABLE_OSINT=1
+ENABLE_PASSIVE=1
+ENABLE_ACTIVE=0
+ENABLE_LIVE=1
+ENABLE_WEB=1
+ENABLE_PARAM=1
+ENABLE_VULN=1
+ENABLE_REPORT=1
